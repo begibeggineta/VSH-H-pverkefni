@@ -1,0 +1,60 @@
+@font-face {
+    font-family: hell;
+    src:url(Hellttf.ttf);
+}
+
+body{
+    background-image: url(Hell.png);
+    background-size:100%;
+    background: 
+}
+h1{
+    font-family:hell;
+    text-align: center;
+    font-size: 80px;
+    background: -webkit-linear-gradient(#FF8000,#FE2E2E);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.topmenu {
+  display: block;
+  position: fixed;
+  bottom: -10em;
+  left: 0;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  width: 100%;
+  z-index: 990;
+  
+  transition: all .5s ease;
+}
+.topmenu li {
+  border: 0;
+  border-left: 1px solid lime;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  background-color: red;
+  width: 100%;
+
+}
+
+.topmenu li:last-child {
+  border-right: 1px solid lime;
+
+}
+
+.topmenu a{
+  display: block;
+  color:white;
+  text-decoration: none;
+  padding: .4em 2em;
+
+}
+
+.topmenu a:hover,
+.topmenu a:active {
+  background-color: lime;
+  transition: all 1s ease;
+}
