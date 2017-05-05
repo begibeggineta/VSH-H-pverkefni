@@ -1,60 +1,84 @@
 @font-face {
     font-family: hell;
+    src:url(Overseer.otf);
+}
+@font-face {
+    font-family: hell1;
+    src:url(popp.ttf);
+}
+@font-face {
+    font-family: hel;
     src:url(Hellttf.ttf);
 }
 
 body{
-    background-image: url(Hell.png);
-    background-size:100%;
-    background: 
-}
-h1{
-    font-family:hell;
-    text-align: center;
-    font-size: 80px;
-    background: -webkit-linear-gradient(#FF8000,#FE2E2E);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    max-width: 60em;
+    margin: 0 auto;
+    background-color: black;
+    background-image: url(nrx.jpg);
+    background-size: 100%  auto;
 }
 .topmenu {
-  display: block;
-  position: fixed;
-  bottom: -10em;
-  left: 0;
-  padding: 0;
-  margin: 0;
-  list-style: none;
-  width: 100%;
-  z-index: 990;
-  
-  transition: all .5s ease;
+    position: relative;
+    bottom: -2px;
+    font-family: hell;
+    padding: 1px;
+    margin: 1px;;
+    display: flex;
+    flex-flow: row;
+    height: 31px;
+    font-size: 26px;
+    background: gradient(top, #878787, #000)
+    text-shadow: 3px 3px 1px #600;
+    background: -webkit-linear-gradient(#38610B,#E0F8F7);
+    
 }
-.topmenu li {
-  border: 0;
-  border-left: 1px solid lime;
-  padding: 0;
-  margin: 0;
-  text-align: center;
-  background-color: red;
-  width: 100%;
-
+.topmenu li{
+    list-style-type: none;
+    text-align: center;
+    
 }
-
-.topmenu li:last-child {
-  border-right: 1px solid lime;
-
-}
-
 .topmenu a{
-  display: block;
-  color:white;
-  text-decoration: none;
-  padding: .4em 2em;
-
+    text-decoration: none;
+    text-align: center;  
+    color: black;
+    font-weight: bold;
+    
+}
+.todaleft{
+    position: absolute;
+    bottom: 00px;
 }
 
-.topmenu a:hover,
-.topmenu a:active {
-  background-color: lime;
-  transition: all 1s ease;
+
+marquee{
+    font-weight: bolderM
+    border-radius: 20px;
+    font-size: 30px;
+    max-width: 500px;
+    background: -webkit-linear-gradient(black,red);
+}
+
+@keyframes example {
+    
+}
+.bla{
+    margin: 10px auto;
+    text-align: center;
+}
+a:hover{
+    background-color:-webkit-linear-gradient(black,red);
+}
+@media screen and (min-width: 60em) {
+    body {
+        background-image: url(nr2.jpg);
+        background-size: 100%  auto;
+    }
+}
+.komok{
+    margin: 5px;
+    float: right;
+    background-color: aliceblue;
+    border-style: solid;
+    border-width: 4px;
 }
